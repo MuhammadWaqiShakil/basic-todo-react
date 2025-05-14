@@ -44,7 +44,7 @@ function App() {
       
       
     <div id="notes" className="mt-5 ms-auto me-auto ">          
-          {notesArr.map((value, index) => (
+          {[...notesArr].reverse().map((value, index) => (
             <div id="alertBox" key={index} className="alert alert-dark d-flex justify-content-between"  role="alert">
                 {value}
                  <div>
