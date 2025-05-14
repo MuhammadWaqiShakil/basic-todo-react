@@ -1,0 +1,38 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+}
+button{
+    font-size: 10px;
+}
+#notes{
+    width: 50%;
+    animation: making 4s ease-in-out;
+}
+.container{
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: black;
+}
+i{
+  cursor: pointer;
+  font-size: 2.2vmin;
+  margin-left: 10px;
+}
+
+#alertBox{
+    background-color: whitesmoke;
+    font-size: 2.2vmin;
+    
+}
+
+@keyframes making {
+    from {opacity: 10%;}
+    to {opacity: 100%;}    
+}
+
+
